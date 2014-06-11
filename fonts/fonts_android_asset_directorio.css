@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  /*src: local('Luckiest Guy'), local('LuckiestGuy-Regular'), url(http://themes.googleusercontent.com/static/fonts/luckiestguy/v4/5718gH8nDy3hFVihOpkY5KRDOzjiPcYnFooOUGCOsRk.woff) format('woff');*/
+  src: local('Luckiest Guy'), local('LuckiestGuy-Regular'), url(file:///android_asset/fonts/5718gH8nDy3hFVihOpkY5KRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  /*src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');*/
+  src: local('Open Sans'), local('OpenSans'), url(file:///android_asset/fonts/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+/*@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Sketch Regular'), local('CabinSketch-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabinsketch/v6/d9fijO34zQajqQvl3YHRCXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}*/
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 700;
+  /*src: local('CabinSketch Bold'), local('CabinSketch-Bold'), url(http://themes.googleusercontent.com/static/fonts/cabinsketch/v6/ki3SSN5HMOO0-IOLOj069Hl4twXkwp3_u9ZoePkT564.woff) format('woff');*/
+  src: local('CabinSketch Bold'), local('CabinSketch-Bold'), url(file:///android_asset/fonts/ki3SSN5HMOO0-IOLOj069Hl4twXkwp3_u9ZoePkT564.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  /*src: local('EB Garamond'), local('EBGaramond'), url(http://themes.googleusercontent.com/static/fonts/ebgaramond/v5/kYZt1bJ8UsGAPRGnkXPeFbrIa-7acMAeDBVuclsi6Gc.woff) format('woff');*/
+  src: local('EB Garamond'), local('EBGaramond'), url(file:///android_asset/fonts/kYZt1bJ8UsGAPRGnkXPeFbrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}

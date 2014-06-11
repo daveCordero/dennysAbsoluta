@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Denny's</title>
+
+		<link href="css/reset.css" type="text/css" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+
+		<script type="text/javascript" src="lib/jquery/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="lib/jquery/jquery.tinysort.js"></script>
+		<script type="text/javascript" src="js/logic.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="fonts/webfont.js"></script>
+		<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+
+	</head>
+	<body>
+
+	<div id="opciones">
+		<div id="columL">
+	        <div id="opcionesLogoDennys"></div>
+	        <div id="opcionesTitulo">Ruleta Mundialista</div>
+	        <div id="titleOpciones">Seleccione las opciones de juego</div>
+	    </div><!--/#columL-->
+		<div id="venues"><ul/></div>
+		<div class="finCols"></div>
+		<a href="javascript:void();" onclick="mostrarRuleta();" id="cargarRul">Cargar Ruleta</a>
+	</div><!--/#opciones-->
+
+	<div id="wheel">
+		
+	    <div id="botonCoca"></div>
+		
+		<div id="columna">
+			
+			<div id="logoDennys"></div>
+			<div id="titulo">Ruleta Mundialista</div>
+			
+			<div class="texto">
+				Siga visitándonos durante toda<br>La Copa de Fútbol Brasil 2014 y tendrá nuevas posibilidades de girar nuestra ruleta. Lo esperamos.
+				<span class="muchaSuerte">¡Mucha suerte con su tiro!</span>
+	            <div id="restricciones">
+	            	Los premios no son reembolsables, no pueden intercambiarse, transferirse o usarse con otras promociones. No se dará doble oportunidad o generarán otros premios por cupones que no sean los de la ruleta.
+	            </div><!--/#restricciones-->
+			</div><!--/.texto-->
+			
+		</div><!--/#columna-->
+		<div id="main_canvas" role="main_canvas">
+			<canvas id="canvas" width="900" height="600"></canvas>
+		</div>
+	</div><!--/#wheel-->
+		
+	<div id="mensaje_felicidades">
+		<div id="logoDennysFin"></div>
+		<div id="titleSeleccion" style="margin-top:60px; margin-bottom:20px; font-family: 'Cabin Sketch', cursive; color:#333;">¡Felicidades!</div>
+		Su premio es:
+	    <div id="logoCoca"></div>
+		<span id="premio"></span>
+		<a href="javascript:void(0);" onclick="inicio();" id="comenzar">Inicio</a>
+		<div class="finCols"></div>
+		<br>
+		<div class="txPeq">Gracias por preferir Denny's</div>
+	</div><!--/#mensaje-->
+
+	<div id="mensaje_lo_sentimos">
+		<div id="logoDennysFin"></div>
+		<div id="titleSeleccion" style="margin-top:60px; margin-bottom:20px; font-family: 'Cabin Sketch', cursive; color:#333;">¡Lo sentimos!</div>
+		<span id="premio2"></span>
+		<a href="javascript:void(0);" onclick="inicio();" id="comenzar">Inicio</a>
+		<div class="finCols"></div>
+		<br>
+		<div class="txPeq">Gracias por preferir Denny's</div>
+	</div><!--/#mensaje-->
+
+
+	</body>
+</html>
